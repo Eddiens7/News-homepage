@@ -119,6 +119,9 @@ main{
 
 .popular-topic-bg img{
     border-radius: 5px;
+    object-fit: contain;
+    width: 80%;
+
 }
 
 
