@@ -94,7 +94,7 @@ main{
 }
 
 .popular-topic-text{
-    gap: 20px;
+    gap: 10px;
 }
 
 .popular-topic-text h1{
@@ -119,9 +119,9 @@ main{
 
 .popular-topic-bg img{
     border-radius: 5px;
-    object-fit: contain;
-    width: 80%;
-
+    object-fit: cover;
+    width: 130px;
+    height: 100%;
 }
 
 
