@@ -24,14 +24,14 @@ main{
     font-size: 3.6em;
     font-weight: 800;
     line-height: 100%;
-    color: #01011B;
+    color: #00001aff;
 }
 
 .hero p{
     padding: 20px 0;
     line-height: 200%;
     font-size: .9em;
-    color: #5a5a5a;
+    color: #5d5f79ff;
 }
 
 .hero button{
@@ -42,13 +42,13 @@ main{
     letter-spacing: 5px;
     border: none;
     background-color: #F15D51;
-    color: #01011B;
+    color: #00001aff;
     width: 250px;
     cursor: pointer;
 }
 
 .new{
-    background-color: #00001A;
+    background-color: #00001aff;
     color: white;
     padding: 20px;
     margin: 80px 0;
@@ -70,6 +70,7 @@ main{
     font-size: 1.3em;
     font-weight: 200;
     line-height: 160%;
+    color: #c5c6ceff;
 }
 
 .new-topic{
@@ -79,5 +80,45 @@ main{
 }
 
 .divisor{
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(93, 95, 121, 0.5);
 }
+
+.popular, .popular-topic-text{
+    display: flex;
+    flex-flow: column;
+}
+
+.popular{
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.popular-topic-text{
+    gap: 20px;
+}
+
+.popular-topic-text h1{
+    font-size: 2.5em;
+    color: #F15D51;
+}
+
+.popular-topic-text h2{
+    font-size: 1.5em;
+    color: #00001aff;
+}
+
+.popular-topic-text p{
+    line-height: 200%;
+    color: #5d5f79ff;
+}
+
+.popular-topic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.popular-topic-bg img{
+    border-radius: 5px;
+}
+
+
